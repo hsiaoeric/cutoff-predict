@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# uv
+# uv.lock is committed for reproducibility
+
+# Data (large/generated files)
+data/*.csv
+*.xls
+*.xlsx
+
+# Models (large binary files)
+models/*.joblib
+models/*.pkl
+models/*.bin
+
+# Generated outputs
+availability_results/
+example_output.html
+
+# AI agent / prompt files
+.agent/
+PROMPT_*.md
+GEMINI.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Matplotlib cache
+.matplotlib/

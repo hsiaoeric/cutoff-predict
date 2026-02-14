@@ -1,0 +1,40 @@
+    ======================================================================
+    Training Log — Cutoff Weight Prediction
+    ======================================================================
+    Date: 2026-02-14 10:46:50
+    Python features: 25 features
+    Feature list: ['prev_1_weight', 'prev_2_weight', 'avg_weight_3sem', 'avg_weight_all', 'weight_trend', 'weight_volatility', 'semesters_offered', 'credits', 'grade_level', 'semester', 'semester_ordinal', 'oversubscription_ratio', 'prev_1_oversub_ratio', 'prev_2_oversub_ratio', 'avg_oversub_ratio_3sem', 'prev_1_remaining_spots', 'demand_trend', 'instructor_avg_cutoff', 'instructor_course_count', 'is_prime_time', 'num_time_slots', 'dept_cluster', 'is_required', 'popularity_tier', 'domain_category']
+
+    Data splits:
+      Train: 2851 rows
+      Val:   356 rows  (1131, 1132)
+      Test:  311 rows (1141, 1142)
+
+    === Results Summary (Test Set) ===
+
+    | Model          |   MAE |  RMSE |    R² | vs Baseline |
+    |----------------|------:|------:|------:|------------:|
+    | Baseline       | 10.12 | 16.50 | 0.533 |           — |
+    | LGB v1 default |  7.98 | 12.99 | 0.710 | +21.1%    |
+    | LGB v2 tuned   |  7.61 | 12.17 | 0.746 | +24.8%    |
+    | Two-stage      |  7.60 | 12.72 | 0.723 | +24.9%    |
+    | Ensemble       |  7.59 | 12.24 | 0.743 | +24.9%    |
+
+    === LGB v2 Tuned Hyperparameters ===
+    {
+  "num_leaves": 62,
+  "learning_rate": 0.013237018859080919,
+  "feature_fraction": 0.7665991265553302,
+  "bagging_fraction": 0.6157137707165571,
+  "bagging_freq": 5,
+  "min_child_samples": 44,
+  "reg_alpha": 0.00042822417027956676,
+  "reg_lambda": 0.0002887599237480873,
+  "objective": "regression",
+  "metric": "mae",
+  "boosting_type": "gbdt",
+  "verbose": -1,
+  "n_estimators": 1000
+}
+
+    ======================================================================

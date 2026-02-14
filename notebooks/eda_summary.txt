@@ -1,0 +1,99 @@
+======================================================================
+TMU Course Cutoff Weight — EDA Summary Report
+======================================================================
+
+📊 Dataset Overview
+  Total rows:              3531
+  Unique course IDs:       749
+  Unique course keys:      989
+  Semesters covered:       27
+  Semester range:          1012 → 1142
+
+📈 Cutoff Weight Statistics
+  Mean:                    20.33
+  Median:                  11.0
+  Std Dev:                 24.74
+  Min:                     0
+  Max:                     130
+  Zero-weight rows:        874 (24.8%)
+  Rows with weight > 0:    2644 (74.9%)
+
+🏆 Top 15 Most Competitive Courses (by avg weight)
+  解剖超音波學               (00010A11)  avg=118.2  max=130  n=4
+  領導力與創新管理             (00000745)  avg=110.0  max=110  n=1
+  牙醫診所之醫病關係與法律實務       (00020262)  avg=110.0  max=110  n=1
+  虛擬實境臨床整合課程           (00010A03)  avg=104.0  max=104  n=1
+  超音波解剖學               (00010A87)  avg=101.0  max=102  n=2
+  科學繪圖與應用              (30900041)  avg=100.0  max=100  n=1
+  牙科放射線學實驗             (00020118)  avg=100.0  max=100  n=2
+  化妝品學實驗               (00030171)  avg=100.0  max=100  n=1
+  牙醫診所之經營              (00020261)  avg=100.0  max=100  n=2
+  天然物分離技術              (A033E034)  avg=100.0  max=100  n=1
+  解剖學                  (00080063)  avg=100.0  max=100  n=1
+  工具發展                 (3065E023)  avg=100.0  max=100  n=1
+  牙科植體學實驗              (00020240)  avg=99.9  max=120  n=8
+  基因工程及蛋白質工程           (A033E008)  avg=95.0  max=100  n=2
+  化妝品學實驗               (00130171)  avg=92.3  max=100  n=3
+
+📉 Most Volatile Courses (highest std dev, ≥5 semesters)
+  臨床護理專業技能選習           (00060190)  std=54.8  mean=40.0  n=5
+  影像解析與人工智慧跨域應用        (XB500047)  std=52.6  mean=91.0  n=5
+  研究倫理                 (A0030001)  std=48.1  mean=45.4  n=18
+  英文寫作                 (00000047)  std=46.8  mean=37.2  n=13
+  牙科臨床材料學              (00020172)  std=45.6  mean=78.0  n=5
+  西式餐點                 (00070217)  std=44.5  mean=41.1  n=8
+  初階臨床體驗(一)            (00010914)  std=43.0  mean=57.4  n=9
+  研究倫理                 (A003E001)  std=42.5  mean=36.9  n=8
+  新南向國家文化與經貿概論         (00000732)  std=40.2  mean=24.2  n=6
+  緊急醫療照護概論             (00010604)  std=39.8  mean=17.8  n=5
+
+🏫 Department Cluster Statistics
+  醫學相關             n=  172  mean=33.8  std=40.7
+  營養保健             n=   49  mean=29.6  std=31.1
+  護理               n=   30  mean=24.3  std=39.0
+  通識               n= 1699  mean=22.8  std=23.9
+  其他               n=  573  mean=22.6  std=26.0
+  藥學               n=  134  mean=19.7  std=25.9
+  公衛               n=    6  mean=17.2  std=40.6
+  體育               n=  736  mean=11.3  std=15.2
+  管理               n=   79  mean=9.7  std=17.3
+  口腔醫學             n=   40  mean=1.7  std=5.1
+
+📅 Per-Semester Summary
+  1012:  n= 117  mean= 12.4  median=  5.0  max=  70
+  1021:  n= 110  mean= 22.1  median= 12.5  max= 100
+  1022:  n=  84  mean= 27.7  median= 19.0  max= 100
+  1031:  n= 118  mean= 21.2  median= 13.0  max= 100
+  1032:  n=  95  mean= 26.1  median= 20.0  max= 100
+  1041:  n= 119  mean= 21.6  median= 15.0  max= 100
+  1042:  n=  99  mean= 24.6  median= 12.0  max= 100
+  1051:  n= 140  mean= 18.0  median=  9.0  max=  82
+  1052:  n= 103  mean= 22.0  median= 11.0  max= 100
+  1061:  n= 109  mean= 23.1  median= 13.0  max= 100
+  1062:  n= 104  mean= 23.9  median= 16.0  max= 109
+  1071:  n= 118  mean= 23.0  median= 13.0  max= 102
+  1072:  n=  97  mean= 31.9  median= 20.0  max= 110
+  1081:  n= 121  mean= 20.5  median= 12.0  max= 100
+  1082:  n= 114  mean= 18.4  median=  9.5  max= 105
+  1091:  n= 129  mean= 15.7  median=  6.0  max= 110
+  1092:  n= 116  mean= 24.1  median= 11.0  max= 118
+  1101:  n= 161  mean= 18.3  median= 11.0  max= 100
+  1102:  n= 170  mean= 18.0  median=  8.0  max= 120
+  1111:  n= 157  mean= 18.8  median= 11.0  max= 101
+  1112:  n= 157  mean= 19.1  median=  8.0  max= 130
+  1121:  n= 157  mean= 19.9  median= 11.0  max= 120
+  1122:  n= 156  mean= 17.9  median=  7.0  max= 105
+  1131:  n= 181  mean= 18.9  median= 11.0  max= 123
+  1132:  n= 175  mean= 16.1  median=  5.0  max= 100
+  1141:  n= 160  mean= 19.5  median= 12.5  max= 128
+  1142:  n= 151  mean= 20.5  median= 13.0  max= 120
+
+🔮 Key Observations for ML
+  • 24.8% of rows have zero weight (may need special handling)
+  • Weight distribution is right-skewed (median < mean)
+  • Weights trending DOWN over time (early avg=22.5, recent avg=18.9)
+  • prev_1_weight correlation with target: 0.676 (strong predictor)
+
+======================================================================
+End of EDA Report
+======================================================================

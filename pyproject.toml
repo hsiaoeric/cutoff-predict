@@ -1,0 +1,20 @@
+[project]
+name = "cutoff-predict"
+version = "0.1.0"
+description = "ML system to predict TMU course registration lottery cutoff weights (志願錄取權重預測)"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "joblib>=1.5.3",
+    "lightgbm>=4.6.0",
+    "lxml>=6.0.2",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "optuna>=4.7.0",
+    "pandas>=2.2.0,<3",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.0",
+    "seaborn>=0.13.2",
+    "streamlit>=1.40.0",
+    "xlrd>=2.0.2",
+]
