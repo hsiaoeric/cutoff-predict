@@ -2,7 +2,7 @@
 name = "cutoff-predict"
 version = "0.1.0"
 description = "ML system to predict TMU course registration lottery cutoff weights (志願錄取權重預測)"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "joblib>=1.5.3",
